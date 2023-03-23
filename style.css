@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+:root {
+    --primary-color: rgb(244, 248, 248);
+    --primary-color-hover: rgb(253, 200, 200);
+}
+
+/* landing section styles start here */
+
+.landing {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-image: url(./images/Food\ items\ on\ display\ at\ a\ market..jpg);
+}
+
+header {
+    width: 100vw;
+    height: 10vh;
+    background-color: rgba(219, 194, 241, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.logo {
+    color: var(--primary-color);
+    font-size: 2.5rem;
+    margin-left: 3rem;
+}
+
+.nav-bar {
+    margin-right: 6rem;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-item {
+    margin: 2rem;
+    font-size: x-large;
+}
+
+.nav-item a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.nav-item a:hover,
+.footer-info a:hover {
+    color: var(--primary-color-hover);
+    transition: 0.2s ease-in-out;
+}
+
+/* landing section styles end here */
+
+/* testimonials styles start here */
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+    background-color: rgba(207, 52, 52, 0.9);
+}
+
+.testimonials h1 {
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+.testm-slider {
+    display: flex;
+    overflow: hidden;
+    width: 80%;
+    height: 60vh;
+    background-color: bisque;
+    margin-top: 10vh;
+    align-items: center;
+}
+
+.testm-items {
+    background-color: blue;
+    width: 400px;
+    height: 400px;
+    margin: 0.5rem;
+}
+
+.market-img {
+    width: 240px;
+    height: 200px;
+}
+
+/* testimonials styles end here */
+
+/* footer-info styles starts here */
+
+.footer-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    width: 100vw;
+    height: 10vh;
+    color: var(--primary-color);
+}
+
+.footer-info a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+#icons {
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 0.7rem;
+}

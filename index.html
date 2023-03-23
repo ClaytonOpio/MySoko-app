@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MySoko</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="signIn.css">
+    <script src="main.js" defer></script>
+    <script src="signInUp.js" defer></script>
+</head>
+
+<body>
+    <!-- landing section starts here -->
+
+    <section class="landing">
+        <header>
+            <h1 class="logo">MySoko</h1>
+            <nav class="nav-bar">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html">Home</a></li>
+                    <li class="nav-item"><a href="#" id="signPopUp">Sign In</a></li>
+                    <li class="nav-item"><a href="#">Blog</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- landing section ends here -->
+
+        <!-- signIn window starts here -->
+
+        <div class="sign In" id="sign-In">
+            <h1>Sign In</h1>
+            <form action="">
+                <label for="signIn-email">
+                    <p>Email</p>
+                </label>
+                <input type="email" placeholder="email" id="signIn-email">
+
+                <label for="signIn-password">
+                    <p>Password</p>
+                </label>
+                <input type="password" placeholder="password" id="signIn-password">
+
+                <!-- <input type="button" class="submit-button" id="submit-button" placeholder="submit"> -->
+            </form>
+            <button class="submit button" id="submit-button">Sign in</button>
+            <p class="signInOut-toggle">Don't have an account yet?</p>
+            <button class="button" id="goToSignUpButton">Sign Up</button>
+        </div>
+        <!-- sign In window ends here -->
+
+        <!-- sign Up window starts here -->
+
+        <div class="sign Up" id="sign-Up" id="signPage">
+            <h1>Sign Up</h1>
+            <form action="">
+                <label for="signUp-email">
+                    <p>Email</p>
+                </label>
+                <input type="email" placeholder="email" id="signUp-email">
+                <label for="ConfirmSignUp-email">
+                    <p>Confirm email</p>
+                </label>
+                <input type="email" placeholder="confirm email" id="ConfirmSignUp-email">
+
+                <label for="signUp-password">
+                    <p>Password</p>
+                </label>
+                <input type="password" placeholder="password" id="signUp-password">
+                <label for="signUp-password">
+                    <p>Confirm password</p>
+                </label>
+                <input type="password" placeholder="confirm password" id="ConfirmSignUp-password">
+            </form>
+            <button class="button submit" id="submit-button">Submit</button>
+            <p>Already have an account?</p>
+            <button class="button" id="returnToSignInButton">Sign In</button>
+        </div>
+
+        <!-- sign Up window ends here -->
+
+    </section>
+
+    <!-- testimonials start here -->
+
+    <section class="testimonials">
+        <h1>Testimonials</h1>
+        <div class="testm-slider">
+            <div class="testm-items">
+                <div class="info">
+                    <img class="market-img" src="images/Food items on display at a market..jpg" alt="">
+                    <h2 class="client-name">Name-1</h2>
+                    <p class="client-testm">gyufuydyfugyurydfygouotyurtyuog</p>
+                </div>
+            </div>
+            <div class="testm-items">
+                <div class="info">
+                    <img class="market-img" src="images/Food items on display at a market..jpg" alt="">
+                    <h2 class="client-name">Name-2</h2>
+                    <p class="client-testm">gyufuydyfugyurydfygouotyurtyuog</p>
+                </div>
+            </div>
+            <div class="testm-items">
+                <div class="info">
+                    <img class="market-img" src="images/Food items on display at a market..jpg" alt="">
+                    <h2 class="client-name">Name-3</h2>
+                    <p class="client-testm">gyufuydyfugyurydfygouotyurtyuog</p>
+                </div>
+            </div>
+            <div class="testm-items">
+                <div class="info">
+                    <img class="market-img" src="images/Food items on display at a market..jpg" alt="">
+                    <h2 class="client-name">Name-4</h2>
+                    <p class="client-testm">gyufuydyfugyurydfygouotyurtyuog</p>
+                </div>
+            </div>
+            <div class="testm-items">
+                <div class="info">
+                    <img class="market-img" src="images/Food items on display at a market..jpg" alt="">
+                    <h2 class="client-name">Name-5</h2>
+                    <p class="client-testm">gyufuydyfugyurydfygouotyurtyuog</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonials end here -->
+
+    <!-- footer starts here -->
+
+    <section class="footer-info">
+        <p class="our-email"><i class="fa fa-envelope" id="icons" aria-hidden="true"></i><a
+                href="#">mysoko@gmail.com</a></p>
+        <p class="our-phone-number"><i class="fa fa-phone" id="icons" aria-hidden="true"></i>+254 791 419 634</p>
+        <p class="our-facebook"><i class="fa-brands fa-facebook-f" id="icons"></i><a href="#">MySoko</a></p>
+        <p class="our-instagram"><i class="fa-brands fa-instagram" id="icons"></i><a href="#">MySoko</a></p>
+    </section>
+
+    <script src="https://kit.fontawesome.com/ee7d6d5cbd.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

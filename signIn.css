@@ -1,0 +1,78 @@
+.sign {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    height: 70vh;
+    border-radius: 0.5rem;
+    background-color: rgba(207, 52, 52, 0.6);
+    margin-top: 20vh;
+    margin-left: 30vw;
+    align-items: center;
+
+}
+
+
+.sign {
+    display: none;
+}
+
+#sign-Up {
+    display: none;
+    margin-top: 15vh;
+    height: 82vh;
+}
+
+.sign h1 {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    color: var(--primary-color);
+}
+
+.sign form {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign form input {
+    font-size: 1rem;
+    color: var(--primary-color);
+    padding-left: 1rem;
+    width: 20vw;
+    height: 5vh;
+    margin-bottom: 1.5rem;
+    background: none;
+    border-radius: 0.1vh;
+    border-width: 1px solid rgba(207, 52, 52, 0.6);
+}
+
+.sign form input::placeholder {
+    color: var(--primary-color);
+}
+
+.button {
+    font-size: 1rem;
+    margin-top: 1rem;
+    width: 20vw;
+    height: 5vh;
+    border-radius: 2.5vw;
+    background-color: rgb(207, 52, 52);
+    color: var(--primary-color);
+    border: 1px solid rgb(207, 52, 52);
+}
+
+.button:hover {
+    transform: scale(110%);
+    transition: 0.3s ease-in-out;
+}
+
+.sign p {
+    font-size: 1rem;
+    color: var(--primary-color);
+    margin-top: 0.5rem;
+}
+
+.signInOut-toggle a {
+    color: rgb(204, 165, 240);
+    text-decoration: none;
+}
