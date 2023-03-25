@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="signIn.css">
     <script src="main.js" defer></script>
-    <script src="signInUp.js" defer></script>
+    <script src="signInUp.js" defer type="module"></script>
 </head>
 
 <body>
@@ -33,7 +33,7 @@
 
         <div class="sign In" id="sign-In">
             <h1>Sign In</h1>
-            <form action="">
+            <form action="" method="post">
                 <label for="signIn-email">
                     <p>Email</p>
                 </label>
@@ -46,7 +46,7 @@
 
                 <!-- <input type="button" class="submit-button" id="submit-button" placeholder="submit"> -->
             </form>
-            <button class="submit button" id="submit-button">Sign in</button>
+            <button class="submit button" id="signIn-button">Sign in</button>
             <p class="signInOut-toggle">Don't have an account yet?</p>
             <button class="button" id="goToSignUpButton">Sign Up</button>
         </div>
@@ -56,7 +56,7 @@
 
         <div class="sign Up" id="sign-Up" id="signPage">
             <h1>Sign Up</h1>
-            <form action="">
+            <form action="" method="post">
                 <label for="signUp-email">
                     <p>Email</p>
                 </label>
