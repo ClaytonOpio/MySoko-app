@@ -76,3 +76,53 @@
     color: rgb(204, 165, 240);
     text-decoration: none;
 }
+
+.testimonials {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+.testm-slider {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.testm-container {
+    display: flex;
+    width: 100%;
+}
+
+  
+.testm-items {
+    flex: 0 0 33.3333%; /* 100% divided by 3 */
+    padding: 15px;
+    box-sizing: border-box;
+}
+  
+.info {
+    text-align: center;
+}
+  
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    border: none;
+    font-size: 2rem;
+    padding: 5px 15px;
+    cursor: pointer;
+    z-index: 1;
+}
+  
+.left-arrow {
+    left: 5px;
+}
+  
+.right-arrow {
+    right: 5px;
+}
+  
